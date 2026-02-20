@@ -1,0 +1,30 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:              EW_excess   R-squared:                       0.754
+Model:                            OLS   Adj. R-squared:                  0.741
+Method:                 Least Squares   F-statistic:                     57.65
+Date:                Fri, 20 Feb 2026   Prob (F-statistic):           3.96e-32
+Time:                        02:33:33   Log-Likelihood:                 263.82
+No. Observations:                 120   AIC:                            -513.6
+Df Residuals:                     113   BIC:                            -494.1
+Df Model:                           6                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const          0.0003      0.003      0.122      0.903      -0.005       0.006
+Mkt-RF         0.8770      0.064     13.719      0.000       0.750       1.004
+SMB            0.3414      0.114      2.983      0.004       0.115       0.568
+HML            0.0499      0.103      0.483      0.630      -0.155       0.254
+RMW            0.0968      0.141      0.688      0.493      -0.182       0.376
+CMA            0.0325      0.153      0.213      0.832      -0.270       0.335
+Mom           -0.1232      0.077     -1.602      0.112      -0.276       0.029
+==============================================================================
+Omnibus:                        4.845   Durbin-Watson:                   1.685
+Prob(Omnibus):                  0.089   Jarque-Bera (JB):                5.284
+Skew:                           0.244   Prob(JB):                       0.0712
+Kurtosis:                       3.905   Cond. No.                         69.5
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.

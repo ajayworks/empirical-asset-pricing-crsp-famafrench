@@ -1,0 +1,25 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:              EW_excess   R-squared:                       0.699
+Model:                            OLS   Adj. R-squared:                  0.696
+Method:                 Least Squares   F-statistic:                     273.5
+Date:                Fri, 20 Feb 2026   Prob (F-statistic):           1.63e-32
+Time:                        02:33:33   Log-Likelihood:                 251.69
+No. Observations:                 120   AIC:                            -499.4
+Df Residuals:                     118   BIC:                            -493.8
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const         -0.0013      0.003     -0.480      0.632      -0.007       0.004
+Mkt-RF         0.9898      0.060     16.537      0.000       0.871       1.108
+==============================================================================
+Omnibus:                        6.153   Durbin-Watson:                   1.786
+Prob(Omnibus):                  0.046   Jarque-Bera (JB):               10.124
+Skew:                           0.003   Prob(JB):                      0.00633
+Kurtosis:                       4.423   Cond. No.                         21.9
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
