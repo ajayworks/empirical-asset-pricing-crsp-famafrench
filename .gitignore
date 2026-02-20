@@ -1,0 +1,22 @@
+# Mac system files
+.DS_Store
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+.env/
+
+# Data files (if large)
+data/raw/
+
+# Logs
+*.log
+
+# OS generated
+Thumbs.db
